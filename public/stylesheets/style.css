@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  margin: 0;
+  background-image: url("../images/fundo.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.021);
+  font-weight: bold;
+  margin-bottom: 900px;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 5px;
+  background-color: transparent;
+  border: solid 2px #222;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  font-weight: bold;
+  background-color: #222;
+  color: #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: .5s;
+}
+
+input[type="submit"]:hover {
+  color: #90ee90;
+  box-shadow: 1px 1px 5px 1px;
+}
